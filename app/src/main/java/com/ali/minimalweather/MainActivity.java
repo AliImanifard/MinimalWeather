@@ -8,6 +8,7 @@ import android.media.MediaPlayer;
 import android.net.Uri;
 import android.os.Bundle;
 import android.provider.Settings;
+import android.util.Log;
 import android.view.Gravity;
 import android.view.View;
 import android.view.WindowManager;
@@ -160,6 +161,8 @@ public class MainActivity extends AppCompatActivity implements AddCityFragment.A
             // The code that must be executed the first time
 
             isFirstRunLanguage = true;
+
+            Log.i("myLog","city : " + city);
 
             if (checkPermissions())
                 retrofitGetJson(0, latUser, lonUser);

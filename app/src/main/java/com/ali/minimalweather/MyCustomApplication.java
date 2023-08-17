@@ -4,8 +4,10 @@ import android.app.Application;
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
 import android.os.Build;
+import android.util.Log;
 
 import com.ali.minimalweather.DataBase.AssetDatabaseHelper;
+import com.ali.minimalweather.DataBase.CityDBHelper;
 
 public class MyCustomApplication extends Application {
 
@@ -22,6 +24,9 @@ public class MyCustomApplication extends Application {
         super.onCreate();
 
         new AssetDatabaseHelper(getApplicationContext()).checkDB();
+
+        CityDBHelper cityDBHelper = new CityDBHelper(this);
+        Log.i("myLog","getShownCity : " + cityDBHelper.getShownCity());
 
         createNotificationChannel();
 

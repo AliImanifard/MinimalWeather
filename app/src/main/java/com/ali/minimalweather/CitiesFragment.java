@@ -109,7 +109,6 @@ public class CitiesFragment extends Fragment {
 
             mainActivity.showLoadingToast();
 
-            //mainActivity.updateDisplayForLocationBasedGotFromCitiesFragment();
             mainActivity.updateDisplay("locationButtonBased");
             dbHelper.updateCityShown(dbHelper.getShownCity().getCity_id(), false);
         });
