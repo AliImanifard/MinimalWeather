@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:layoutDirection="ltr"
+    >
+
+
+    <include
+        android:id="@+id/ma_custom_toolbar"
+        layout="@layout/custom_toolbar"
+         />
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="70dp"
+        android:layout_marginTop="?actionBarSize"
+
+        />
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/loading_weather"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        app:lottie_autoPlay="false"
+        app:lottie_loop="true"
+        android:visibility="invisible"
+        app:lottie_rawRes="@raw/weather_on_phone"
+        app:lottie_imageAssetsFolder="images"
+        app:lottie_enableMergePathsForKitKatAndAbove="true"
+
+        />
+
+
+    <me.ibrahimsn.lib.SmoothBottomBar
+        android:id="@+id/smooth_bottom_bar"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        app:backgroundColor="#918B8B"
+        app:cornerRadius="100dp"
+        app:corners="top_left|top_right"
+        app:duration="300"
+        app:menu="@menu/menu_smooth_bottom_bar"
+
+        />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WeatherCardFragment"
+    android:layoutDirection="ltr"
+    android:id="@+id/scrollViewWeatherCardFragment"
+    >
+
+    <FrameLayout
+        android:id="@+id/FrameLayoutWeatherCardFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".WeatherCardFragment"
+        android:layoutDirection="ltr"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="?actionBarSize"
+                android:visibility="gone"
+                />
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="8dp"
+                android:elevation="10dp"
+                android:layout_marginHorizontal="5dp"
+                android:layout_marginTop="2dp"
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/tv_city"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:ellipsize="marquee"
+                        android:fontFamily="@font/aviny"
+                        android:scrollHorizontally="true"
+                        android:singleLine="true"
+                        android:textColor="?colorPrimary"
+                        android:textSize="40sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv_weather_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tv_city"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="-15dp"
+                        android:fontFamily="@font/lalezar"
+                        android:textSize="27sp"
+                        android:maxLines="1"/>
+
+                    <LinearLayout
+                        android:id="@+id/ll_image_view_weather_icon"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tv_weather_title"
+                        android:gravity="center_horizontal"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="10dp">
+
+                        <ImageView
+                            android:id="@+id/iv_weather_icon_current_weather"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_gravity="center_vertical"
+                            android:src="@drawable/weather_icon_clear_day" />
+
+                        <TextView
+                            android:id="@+id/tv_temp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:textColor="?colorPrimary"
+                            android:textSize="60sp"
+                            />
+
+                    </LinearLayout>
+
+
+                    <TextView
+                        android:id="@+id/tv_weather_description"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/ll_image_view_weather_icon"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/kalameh"
+                        android:textSize="23sp"
+                        android:maxLines="1"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tv_weather_description"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center_horizontal"
+                        android:orientation="horizontal"
+                        android:layoutDirection="locale">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ic_pollution"
+                            android:layout_marginHorizontal="5dp"/>
+
+                        <TextView
+                            android:id="@+id/tv_aqi"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom"
+                            android:fontFamily="@font/bkoodak"
+                            android:gravity="center_vertical"
+                            android:maxLines="1"
+                            android:textSize="20sp" />
+
+
+
+
+                    </LinearLayout>
+
+
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?colorPrimaryVariant"
+                android:layout_marginHorizontal="25dp"
+                android:alpha="0.1"
+                />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="8dp"
+                android:elevation="10dp"
+                android:layout_marginHorizontal="5dp"
+                app:cardElevation="4dp"
+                >
+
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layoutDirection="locale"
+                    android:scrollbars="horizontal"
+
+                    >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="220dp"
+                        android:orientation="horizontal"
+
+                        >
+
+
+                        <!-- 8 forecast_next_hours layout for next hours
+                        (in that day (every day has 8 weather)) -->
+                        <include layout="@layout/forecast_next_hours"
+                            android:id="@+id/l_forecast_3h"/>
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="200dp"
+                            android:background="@color/gray_400"
+                            android:layout_marginHorizontal="7dp"
+                            android:layout_marginVertical="11dp"
+                            />
+
+                        <include layout="@layout/forecast_next_hours"
+                            android:id="@+id/l_forecast_6h"/>
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="200dp"
+                            android:background="@color/gray_400"
+                            android:layout_marginHorizontal="7dp"
+                            android:layout_marginVertical="11dp"
+                            />
+
+                        <include layout="@layout/forecast_next_hours"
+                            android:id="@+id/l_forecast_9h"/>
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="200dp"
+                            android:background="@color/gray_400"
+                            android:layout_marginHorizontal="7dp"
+                            android:layout_marginVertical="11dp"
+                            />
+
+                        <include layout="@layout/forecast_next_hours"
+                            android:id="@+id/l_forecast_12h"/>
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="200dp"
+                            android:background="@color/gray_400"
+                            android:layout_marginHorizontal="7dp"
+                            android:layout_marginVertical="11dp"
+                            />
+
+                        <include layout="@layout/forecast_next_hours"
+                            android:id="@+id/l_forecast_15h"/>
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="200dp"
+                            android:background="@color/gray_400"
+                            android:layout_marginHorizontal="7dp"
+                            android:layout_marginVertical="11dp"
+                            />
+
+                        <include layout="@layout/forecast_next_hours"
+                            android:id="@+id/l_forecast_18h"/>
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="200dp"
+                            android:background="@color/gray_400"
+                            android:layout_marginHorizontal="7dp"
+                            android:layout_marginVertical="11dp"
+                            />
+
+                        <include layout="@layout/forecast_next_hours"
+                            android:id="@+id/l_forecast_21h"/>
+
+
+                    </LinearLayout>
+
+                </HorizontalScrollView>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:rowCount="1"
+                android:columnCount="5"
+                android:orientation="horizontal"
+                android:useDefaultMargins="true"
+                android:alignmentMode="alignBounds"
+                android:layout_marginHorizontal="5dp"
+                android:layoutDirection="locale"
+
+                >
+
+                <include layout="@layout/forecast_card_view"
+                    android:id="@+id/cv_forecast_1_day_after_today"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    />
+
+                <include layout="@layout/forecast_card_view"
+                    android:id="@+id/cv_forecast_2_days_after_today"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    />
+
+                <include layout="@layout/forecast_card_view"
+                    android:id="@+id/cv_forecast_3_days_after_today"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    />
+
+                <include layout="@layout/forecast_card_view"
+                    android:id="@+id/cv_forecast_4_days_after_today"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    />
+
+                <include layout="@layout/forecast_card_view"
+                    android:id="@+id/cv_forecast_5_days_after_today"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_columnWeight="1"
+                    />
+
+            </GridLayout>
+
+
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="parent"
+                />
+
+
+
+        </LinearLayout>
+
+
+
+    </FrameLayout>
+
+
+
+
+
+</ScrollView>

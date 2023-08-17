@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstActivity"
+    android:background="@drawable/bg_activity_first"
+    >
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/sa_weather_cloud"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/weather_cloud_first_activity"
+
+        android:layout_above="@id/sa_tv"
+        android:layout_centerHorizontal="true"
+
+        />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/sa_leaf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sa_tv"
+        android:scaleType="fitXY"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/leaf"
+
+
+        />
+
+    <TextView
+        android:id="@+id/sa_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+
+
+        android:fontFamily="@font/kalameh"
+
+        android:text="@string/app_name"
+        android:textColor="?colorOnPrimary"
+
+        android:textSize="40sp" />
+
+
+
+
+</RelativeLayout>

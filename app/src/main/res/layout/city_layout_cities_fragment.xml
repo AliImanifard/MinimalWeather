@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="16dp"
+    android:layoutDirection="ltr"
+    >
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/country_flag"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_centerVertical="true"
+        />
+
+    <TextView
+        android:id="@+id/city_name"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="10dp"
+        android:layout_toEndOf="@id/country_flag"
+        android:padding="12dp"
+        android:textColor="?colorPrimary"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@id/city_name"
+        android:layout_marginStart="20dp"
+        >
+
+        <info.hoang8f.widget.FButton
+            android:id="@+id/btn_city_layout"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="@string/delete"
+            app:buttonColor="#ff1111"
+            android:layout_margin="2dp"
+            android:fontFamily="@font/bkoodak"
+            app:shadowColor="#970000"
+
+            />
+
+        <info.hoang8f.widget.FButton
+            android:id="@+id/btn_city_layout_shown"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="50dp"
+            android:text="@string/shown"
+            android:layout_margin="2dp"
+            android:fontFamily="@font/bkoodak"
+            app:shadowColor="#178593"
+            />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

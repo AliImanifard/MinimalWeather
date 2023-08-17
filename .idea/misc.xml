@@ -1,0 +1,67 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Document/Java Projects/Android Projects/MinimalWeather/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2575" />
+        <entry key="..\:/Document/Java Projects/Android Projects/MinimalWeather/app/src/main/res/drawable/bg_activity_first.xml" value="0.2575" />
+        <entry key="..\:/Document/Java Projects/Android Projects/MinimalWeather/app/src/main/res/drawable/dialog_round_corner_network_error.xml" value="0.215" />
+        <entry key="..\:/Document/Java Projects/Android Projects/MinimalWeather/app/src/main/res/drawable/ic_clear_day.xml" value="0.209" />
+        <entry key="..\:/Document/Java Projects/Android Projects/MinimalWeather/app/src/main/res/drawable/ic_cold.xml" value="0.233" />
+        <entry key="..\:/Document/Java Projects/Android Projects/MinimalWeather/app/src/main/res/drawable/ic_developer.xml" value="0.2575" />
+        <entry key="..\:/Document/Java Projects/Android Projects/MinimalWeather/app/src/main/res/drawable/ic_globe.xml" value="0.215" />
+        <entry key="..\:/Document/Java Projects/Android Projects/MinimalWeather/app/src/main/res/drawable/ic_hot.xml" value="0.215" />
+        <entry key="..\:/Document/Java Projects/Android Projects/MinimalWeather/app/src/main/res/drawable/ic_icons_weather.xml" value="0.209" />
+        <entry key="..\:/Document/Java Projects/Android Projects/MinimalWeather/app/src/main/res/drawable/ic_language.xml" value="0.215" />
+        <entry key="..\:/Document/Java Projects/Android Projects/MinimalWeather/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2575" />
+        <entry key="..\:/Document/Java Projects/Android Projects/MinimalWeather/app/src/main/res/drawable/ic_messenger.xml" value="0.2575" />
+        <entry key="..\:/Document/Java Projects/Android Projects/MinimalWeather/app/src/main/res/drawable/ic_minimal_weather_app_icon.xml" value="0.2575" />
+        <entry key="..\:/Document/Java Projects/Android Projects/MinimalWeather/app/src/main/res/drawable/ic_tab_five.xml" value="0.174" />
+        <entry key="..\:/Document/Java Projects/Android Projects/MinimalWeather/app/src/main/res/drawable/ic_time_format.xml" value="0.2575" />
+        <entry key="..\:/Document/Java Projects/Android Projects/MinimalWeather/app/src/main/res/drawable/ic_weather.xml" value="0.1" />
+        <entry key="..\:/Document/Java Projects/Android Projects/MinimalWeather/app/src/main/res/drawable/moon.xml" value="0.209" />
+        <entry key="..\:/Document/Java Projects/Android Projects/MinimalWeather/app/src/main/res/drawable/weather_icon_200.xml" value="0.209" />
+        <entry key="..\:/Document/Java Projects/Android Projects/MinimalWeather/app/src/main/res/drawable/weather_icon_800_day.xml" value="0.209" />
+        <entry key="..\:/Document/Java Projects/Android Projects/MinimalWeather/app/src/main/res/drawable/weather_icon_800_night.xml" value="0.209" />
+        <entry key="..\:/Document/Java Projects/Android Projects/MinimalWeather/app/src/main/res/drawable/weather_icon_clouds_scattered.xml" value="0.198" />
+        <entry key="..\:/Document/Java Projects/Android Projects/MinimalWeather/app/src/main/res/drawable/weather_icon_rain_day.xml" value="0.198" />
+        <entry key="..\:/Document/Java Projects/Android Projects/MinimalWeather/app/src/main/res/drawable/weather_icon_shower_rain_day.xml" value="0.198" />
+        <entry key="..\:/Document/Java Projects/Android Projects/MinimalWeather/app/src/main/res/drawable/weather_icon_snow.xml" value="0.198" />
+        <entry key="..\:/Document/Java Projects/Android Projects/MinimalWeather/app/src/main/res/drawable/weather_icon_snow_day.xml" value="0.198" />
+        <entry key="..\:/Document/Java Projects/Android Projects/MinimalWeather/app/src/main/res/drawable/weather_icon_thunderstorm.xml" value="0.198" />
+        <entry key="..\:/Document/Java Projects/Android Projects/MinimalWeather/app/src/main/res/drawable/weather_icon_thunderstorm_day.xml" value="0.198" />
+        <entry key="..\:/Document/Java Projects/Android Projects/MinimalWeather/app/src/main/res/drawable/weather_icon_thunderstorm_night.xml" value="0.198" />
+        <entry key="..\:/Document/Java Projects/Android Projects/MinimalWeather/app/src/main/res/layout/activity_first.xml" value="0.25416666666666665" />
+        <entry key="..\:/Document/Java Projects/Android Projects/MinimalWeather/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Document/Java Projects/Android Projects/MinimalWeather/app/src/main/res/layout/activity_splash.xml" value="0.25416666666666665" />
+        <entry key="..\:/Document/Java Projects/Android Projects/MinimalWeather/app/src/main/res/layout/activity_splash_screen.xml" value="0.25416666666666665" />
+        <entry key="..\:/Document/Java Projects/Android Projects/MinimalWeather/app/src/main/res/layout/city_layout.xml" value="0.253125" />
+        <entry key="..\:/Document/Java Projects/Android Projects/MinimalWeather/app/src/main/res/layout/city_layout_add_city_fragment.xml" value="0.25416666666666665" />
+        <entry key="..\:/Document/Java Projects/Android Projects/MinimalWeather/app/src/main/res/layout/city_layout_cities_fragment.xml" value="0.253125" />
+        <entry key="..\:/Document/Java Projects/Android Projects/MinimalWeather/app/src/main/res/layout/custom_action_bar.xml" value="0.25416666666666665" />
+        <entry key="..\:/Document/Java Projects/Android Projects/MinimalWeather/app/src/main/res/layout/custom_toolbar.xml" value="0.25416666666666665" />
+        <entry key="..\:/Document/Java Projects/Android Projects/MinimalWeather/app/src/main/res/layout/dialog_network_error.xml" value="0.253125" />
+        <entry key="..\:/Document/Java Projects/Android Projects/MinimalWeather/app/src/main/res/layout/forecast_card_view.xml" value="0.253125" />
+        <entry key="..\:/Document/Java Projects/Android Projects/MinimalWeather/app/src/main/res/layout/forecast_next_hours.xml" value="0.25416666666666665" />
+        <entry key="..\:/Document/Java Projects/Android Projects/MinimalWeather/app/src/main/res/layout/fragment_add_city.xml" value="0.25416666666666665" />
+        <entry key="..\:/Document/Java Projects/Android Projects/MinimalWeather/app/src/main/res/layout/fragment_cities.xml" value="0.22870370370370371" />
+        <entry key="..\:/Document/Java Projects/Android Projects/MinimalWeather/app/src/main/res/layout/fragment_weather_card.xml" value="0.25416666666666665" />
+        <entry key="..\:/Document/Java Projects/Android Projects/MinimalWeather/app/src/main/res/layout/fragment_weather_card_low_height.xml" value="0.21981981981981982" />
+        <entry key="..\:/Document/Java Projects/Android Projects/MinimalWeather/app/src/main/res/layout/icon_text_tab_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/Document/Java Projects/Android Projects/MinimalWeather/app/src/main/res/layout/location_layout_cities_fragment.xml" value="0.253125" />
+        <entry key="..\:/Document/Java Projects/Android Projects/MinimalWeather/app/src/main/res/layout/rrr.xml" value="0.25416666666666665" />
+        <entry key="..\:/Document/Java Projects/Android Projects/MinimalWeather/app/src/main/res/layout/sample_my_tab_layout.xml" value="0.24010416666666667" />
+        <entry key="..\:/Document/Java Projects/Android Projects/MinimalWeather/app/src/main/res/layout/snack_bar_loading.xml" value="0.253125" />
+        <entry key="..\:/Document/Java Projects/Android Projects/MinimalWeather/app/src/main/res/layout/toast_loading.xml" value="0.25416666666666665" />
+        <entry key="..\:/Document/Java Projects/Android Projects/MinimalWeather/app/src/main/res/menu/menu_smooth_bottom_bar.xml" value="0.25416666666666665" />
+        <entry key="..\:/Document/Java Projects/Android Projects/MinimalWeather/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.233" />
+        <entry key="..\:/Document/Java Projects/Android Projects/MinimalWeather/app/src/main/res/xml/root_preferences.xml" value="0.21296296296296297" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

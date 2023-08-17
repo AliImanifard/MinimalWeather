@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".CitiesFragment"
+    android:layoutDirection="ltr"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_location"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/location"
+                android:textColor="?colorPrimary"
+                android:textSize="20sp"
+                android:fontFamily="@font/bkoodak"
+                />
+
+            <info.hoang8f.widget.FButton
+                android:id="@+id/btn_location_shown"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="@string/shown"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="2dp"
+                android:layout_marginStart="2dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                app:buttonColor="#2ec5d9"
+                app:shadowColor="#178593"
+                android:fontFamily="@font/bkoodak"
+                />
+
+        </RelativeLayout>
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+
+        <com.scalified.fab.ActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            app:type="DEFAULT"
+            app:shadow_radius="2dp"
+            android:visibility="invisible"
+            app:shadow_color="@color/gray_400"
+            app:shadow_xOffset="0.5dp"
+            app:shadow_yOffset="0.5dp"
+            app:rippleEffect_enabled="true"
+            app:button_colorRipple="@color/gray_600"
+            app:image="@drawable/ic_globe"
+            app:image_size="40dp"
+            />
+
+    </RelativeLayout>
+
+
+</FrameLayout>

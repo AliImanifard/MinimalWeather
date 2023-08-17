@@ -1,0 +1,70 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory app:title="@string/ui_header">
+
+        <ListPreference
+            app:key="measurement"
+            app:entries="@array/measurement_mode_entries"
+            app:entryValues="@array/measurement_mode_values"
+            app:title="@string/measurement_mode"
+            app:defaultValue="metric"
+            app:useSimpleSummaryProvider="true"
+            app:icon="@drawable/ic_thermometer"
+            />
+
+        <ListPreference
+            app:key="night"
+            app:entries="@array/night_mode_entries"
+            app:entryValues="@array/night_mode_values"
+            app:title="@string/night_mode"
+            app:defaultValue="follow_system"
+            app:useSimpleSummaryProvider="true"
+            app:icon="@drawable/weather_icon_clear_night"
+            />
+
+        <SwitchPreference
+            app:key="sound_effect"
+            app:title="@string/sound_effects"
+            app:defaultValue="true"
+            app:enabled="true"
+            app:icon="@drawable/ic_sound_effect"
+            />
+
+        <SwitchPreference
+            app:key="time_format"
+            app:title="@string/time_format_twenty_four"
+            app:defaultValue="true"
+            app:enabled="true"
+            app:icon="@drawable/ic_time_format"
+            />
+
+        <CheckBoxPreference
+            app:key="notifications"
+            app:title="@string/notifications"
+            app:defaultValue="true"
+            app:enabled="true"
+            app:icon="@drawable/ic_notification_ring"
+            />
+
+
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:title="@string/developer">
+
+        <Preference
+            app:title="@string/ali_imanifard"
+            app:icon="@drawable/ic_developer"
+            />
+        <Preference
+            app:title="@string/ali_imanifard_email"
+            app:icon="@drawable/ic_messenger"
+            android:selectable="true"
+            app:key="email"
+            />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

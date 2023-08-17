@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:id="@+id/toast_loading"
+    android:orientation="horizontal"
+    android:background="@drawable/dialog_round_corner_network_error"
+    android:backgroundTint="#918B8B"
+    >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_hourglass"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/loading"
+        android:fontFamily="@font/kalameh"
+        android:textSize="60sp"
+        android:layout_gravity="center"
+        android:textColor="?colorOnPrimary"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_hourglass"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        />
+
+</LinearLayout>

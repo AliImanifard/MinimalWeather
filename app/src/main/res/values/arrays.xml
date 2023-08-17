@@ -1,0 +1,117 @@
+<resources>
+    <!-- Language Preference -->
+    <string-array name="language_entries">
+        <item>Afrikaans</item>
+        <item>Arabic</item>
+        <item>Bulgarian</item>
+        <item>Catalan</item>
+        <item>Danish</item>
+        <item>German</item>
+        <item>Greek</item>
+        <item>English</item>
+        <item>Basque</item>
+        <item>Farsi</item>
+        <item>Finnish</item>
+        <item>French</item>
+        <item>Galician</item>
+        <item>Hebrew</item>
+        <item>Hindi</item>
+        <item>Croatian</item>
+        <item>Hungarian</item>
+        <item>Indonesian</item>
+        <item>Italian</item>
+        <item>Japanese</item>
+        <item>Lithuanian</item>
+        <item>Norwegian</item>
+        <item>Dutch</item>
+        <item>Polish</item>
+        <item>Portuguese</item>
+        <item>Português Brasil</item>
+        <item>Romanian</item>
+        <item>Russian</item>
+        <item>Swedish</item>
+        <item>Slovak</item>
+        <item>Slovenian</item>
+        <item>Spanish</item>
+        <item>Serbian</item>
+        <item>Thai</item>
+        <item>Turkish</item>
+        <item>Ukrainian</item>
+        <item>Vietnamese</item>
+        <item>Chinese Simplified</item>
+        <item>Chinese Traditional</item>
+        <item>Zulu</item>
+    </string-array>
+
+    <string-array name="language_values">
+        <item>af</item>
+        <item>ar</item>
+        <item>bg</item>
+        <item>ca</item>
+        <item>da</item>
+        <item>de</item>
+        <item>el</item>
+        <item>en</item>
+        <item>eu</item>
+        <item>fa</item>
+        <item>fi</item>
+        <item>fr</item>
+        <item>gl</item>
+        <item>he</item>
+        <item>hi</item>
+        <item>hr</item>
+        <item>hu</item>
+        <item>id</item>
+        <item>it</item>
+        <item>ja</item>
+        <item>lt</item>
+        <item>no</item>
+        <item>nl</item>
+        <item>pl</item>
+        <item>pt</item>
+        <item>pt_br</item>
+        <item>ro</item>
+        <item>ru</item>
+        <item>sv</item>
+        <item>sk</item>
+        <item>sl</item>
+        <item>es</item>
+        <item>sr</item>
+        <item>th</item>
+        <item>tr</item>
+        <item>uk</item>
+        <item>vi</item>
+        <item>zh_cn</item>
+        <item>zh_tw</item>
+        <item>zu</item>
+    </string-array>
+
+
+    <!-- Measurement Mode Preference -->
+    <string-array name="measurement_mode_entries">
+        <item>Celsius</item>
+        <item>Fahrenheit</item>
+        <item>Kelvin</item>
+    </string-array>
+
+    <string-array name="measurement_mode_values">
+        <item>metric</item>
+        <item>imperial</item>
+        <item>standard</item>
+    </string-array>
+
+
+    <!-- Night Mode Preference -->
+    <string-array name="night_mode_entries">
+        <item>On</item>
+        <item>Off</item>
+        <item>Follow System</item>
+    </string-array>
+
+    <string-array name="night_mode_values">
+        <item>on</item>
+        <item>off</item>
+        <item>follow_system</item>
+    </string-array>
+
+</resources>
