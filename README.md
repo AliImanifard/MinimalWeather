@@ -1,4 +1,6 @@
 # MinimalWeather
+[Farsi Translation of README (ترجمه فارسی)](https://github.com/AliImanifard/MinimalWeather/blob/master/README-fa.MD)
+
 🌦 A beautiful and pleasant app that, with its animations, gives you a glimpse of the current weather, weather forecast, air pollution level and more with features such as sound effects, notifications, etc. 🌦
 
 <img src="https://github.com/AliImanifard/MinimalWeather/assets/139173054/91bc2151-cb2a-47bf-bf75-e0ee15edaec2"  width="18%" height="20%">
